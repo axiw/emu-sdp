@@ -1,0 +1,69 @@
+thumb_opcode_invalid_handler
+0100000101x thumb_opcode_adc_handler
+0001110xxxx thumb_opcode_add1_handler
+00110xxxxxx thumb_opcode_add2_handler
+0001100xxxx thumb_opcode_add3_handler
+01000100xxx thumb_opcode_add4_handler
+10100xxxxxx thumb_opcode_add5_handler
+10101xxxxxx thumb_opcode_add6_handler
+101100000xx thumb_opcode_add7_handler
+0100000000x thumb_opcode_and_handler
+00010xxxxxx thumb_opcode_asr1_handler
+0100000100x thumb_opcode_asr2_handler
+1101xxxxxxx thumb_opcode_b1_handler
+# B (2) = BL, BLX (1)
+0100001110x thumb_opcode_bic_handler
+# BKPT
+111xxxxxxxx thumb_opcode_bl_blx1_handler
+010001111xx thumb_opcode_bl_blx2_handler
+010001110xx thumb_opcode_bx_handler
+0100001011x thumb_opcode_cmn_handler
+00101xxxxxx thumb_opcode_cmp1_handler
+0100001010x thumb_opcode_cmp2_handler
+01000101xxx thumb_opcode_cmp3_handler
+# Skipped lots
+0100000001x thumb_opcode_eor_handler
+11001xxxxxx thumb_opcode_ldmia_handler
+# Skipped lots
+01101xxxxxx thumb_opcode_ldr1_handler
+0101100xxxx thumb_opcode_ldr2_handler
+01001xxxxxx thumb_opcode_ldr3_handler
+10011xxxxxx thumb_opcode_ldr4_handler
+01111xxxxxx thumb_opcode_ldrb1_handler
+0101110xxxx thumb_opcode_ldrb2_handler
+10001xxxxxx thumb_opcode_ldrh1_handler
+0101101xxxx thumb_opcode_ldrh2_handler
+# Skipped lots
+00000xxxxxx thumb_opcode_lsl1_handler
+0100000010x thumb_opcode_lsl2_handler
+00001xxxxxx thumb_opcode_lsr1_handler
+0100000011x thumb_opcode_lsr2_handler
+# Skipped lots
+00100xxxxxx thumb_opcode_mov1_handler
+# MOV (2) = ADD (1)
+01000110xxx thumb_opcode_mov3_handler
+0100001101x thumb_opcode_mul_handler
+0100001111x thumb_opcode_mvn_handler
+0100001001x thumb_opcode_neg_handler
+0100001100x thumb_opcode_orr_handler
+1011110xxxx thumb_opcode_pop_handler
+1011010xxxx thumb_opcode_push_handler
+# Skipped lots
+0100000111x thumb_opcode_ror_handler
+0100000110x thumb_opcode_sbc_handler
+# SETEND
+11000xxxxxx thumb_opcode_stmia_handler
+01100xxxxxx thumb_opcode_str1_handler
+0101000xxxx thumb_opcode_str2_handler
+10010xxxxxx thumb_opcode_str3_handler
+01110xxxxxx thumb_opcode_strb1_handler
+0101010xxxx thumb_opcode_strb2_handler
+10000xxxxxx thumb_opcode_strh1_handler
+0101001xxxx thumb_opcode_strh2_handler
+0001111xxxx thumb_opcode_sub1_handler
+00111xxxxxx thumb_opcode_sub2_handler
+0001101xxxx thumb_opcode_sub3_handler
+101100001xx thumb_opcode_sub4_handler
+# Skipped lots
+0100001000x thumb_opcode_tst_handler
+# Skipped lots

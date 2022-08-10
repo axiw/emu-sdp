@@ -1,0 +1,12 @@
+NULL
+1xxxx addressing_mode1_immediate
+# register = lsl register
+0x000 addressing_mode1_lsl_immediate
+00001 addressing_mode1_lsl_register
+0x010 addressing_mode1_lsr_immediate
+00011 addressing_mode1_lsr_register
+0x100 addressing_mode1_asr_immediate
+00101 addressing_mode1_asr_register
+0x110 addressing_mode1_rr_immediate
+00111 addressing_mode1_rr_register
+# rotate right with extend = rotate right by immediate

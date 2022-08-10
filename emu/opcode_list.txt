@@ -1,0 +1,43 @@
+opcode_invalid_handler
+00x0101xxxxx opcode_adc_handler
+00x0100xxxxx opcode_add_handler
+00x0000xxxxx opcode_and_handler
+101xxxxxxxxx opcode_b_bl_handler
+00x1110xxxxx opcode_bic_handler
+# BKPT
+# BLX (1)
+# BLX (2)
+00010010xxxx opcode_bx_handler
+# BXJ
+# CDP
+000101100001 opcode_clz_handler
+00x10111xxxx opcode_cmn_handler
+00x10101xxxx opcode_cmp_handler
+# CPS
+# CPY = MOV
+00x0001xxxxx opcode_eor_handler
+# LDC
+100xx0x1xxxx opcode_ldm_handler
+# LDM (2)
+# LDM (3)
+01xxx0x1xxxx opcode_ldr_handler
+01xxx1x1xxxx opcode_ldrb_handler
+# LDRBT
+# Skipped lots
+00x1101xxxxx opcode_mov_handler
+# Skipped lots
+00x1111xxxxx opcode_mvn_handler
+# Not real, just a MSR instruction
+001100100000 opcode_nop_handler
+00x1100xxxxx opcode_orr_handler
+# Skipped lots
+00x0011xxxxx opcode_rsb_handler
+# Skipped lots
+100xx0x0xxxx opcode_stm_handler
+01xxx0x0xxxx opcode_str_handler
+01xxx1x0xxxx opcode_strb_handler
+# Skipped lots
+00x0010xxxxx opcode_sub_handler
+# Skipped lots
+00x1000xxxxx opcode_tst_handler
+# Skipped lots

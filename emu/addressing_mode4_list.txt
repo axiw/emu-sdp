@@ -1,0 +1,5 @@
+NULL
+01 addressing_mode4_inc_after
+11 addressing_mode4_inc_before
+00 addressing_mode4_dec_after
+10 addressing_mode4_dec_before

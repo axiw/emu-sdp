@@ -1,0 +1,10 @@
+NULL
+010x addressing_mode2_immediate
+# register offset = scaled register
+1100 addressing_mode2_scaled_register
+011x addressing_mode2_immediate_preindexed
+# register pre-indexed = scaled register pre-indexed
+1110 addressing_mode2_scaled_register_preindexed
+000x addressing_mode2_immediate_postindexed
+# register post-indexed = scaled register post-indexed
+1000 addressing_mode2_scaled_register_postindexed

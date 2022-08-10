@@ -1,0 +1,7 @@
+NULL
+110 addressing_mode3_immediate
+100 addressing_mode3_register
+111 addressing_mode3_immediate_preindex
+101 addressing_mode3_register_preindex
+010 addressing_mode3_immediate_postindex
+000 addressing_mode3_register_postindex
